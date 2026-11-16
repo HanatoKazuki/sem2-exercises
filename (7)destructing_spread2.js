@@ -27,6 +27,11 @@
 // const array2 = numbers2
 // const array3 = [...array1,...array2]
 // console.log(array2)
+// Answer : const { numbers1: array1, numbers2: array2 } = data
+// const array3 = [...array1,...array2]
+// console.log(array1)
+// console.log(array2)
+// console.log(array3)
 
 const nums = [1, 3, 4, 2, 5];
 nums.sort((a, b) => {
