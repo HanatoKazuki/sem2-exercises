@@ -27,3 +27,10 @@
 // const array2 = numbers2
 // const array3 = [...array1,...array2]
 // console.log(array2)
+
+const nums = [1, 3, 4, 2, 5];
+nums.sort((a, b) => {
+  console.log(a, ",", b);
+  return a - b;
+});
+console.log(nums);
